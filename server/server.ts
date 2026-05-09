@@ -20,7 +20,7 @@ await connectDB()
 const app = express();
 
 app.use(cors({
-    origin: ['https://thumblify-frontend-eight.vercel.app/', 'https://thumblify-one-eta.vercel.app/'],
+    origin: ['https://thumblify-one-eta.vercel.app'],
     credentials: true
 }))
 
